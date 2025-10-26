@@ -33,7 +33,7 @@ SECONDARY_API_URL = "https://paid-num.frappeash.workers.dev/?mobile="
 try:
     # कृपया ध्यान दें: ADMIN_ID को .env फ़ाइल से लोड करना सबसे अच्छा है। 
     # मैंने यहाँ दी गई ID (7524032836) को ही उपयोग किया है।
-    ADMIN_ID = int(os.getenv("ADMIN_ID", "7524032836")) 
+    ADMIN_ID = int(os.getenv("ADMIN_ID", "8285724366")) 
 except (TypeError, ValueError):
     ADMIN_ID = None
     logger.error("ADMIN_ID is missing or invalid in .env file.")
@@ -41,10 +41,10 @@ except (TypeError, ValueError):
 # Settings
 DAILY_CREDITS_LIMIT = 3
 REFERRAL_CREDITS = 1 # 1 क्रेडिट प्रति रेफरल
-SUPPORT_CHANNEL_USERNAME = "narzoxbot"
-SUPPORT_CHANNEL_LINK = "https://t.me/narzoxbot"
+SUPPORT_CHANNEL_USERNAME = "zolvibots"
+SUPPORT_CHANNEL_LINK = "https://t.me/zolvibots"
 # ⭐ यहां नया Owner Username जोड़ा गया है ⭐
-ADMIN_USERNAME_FOR_ACCESS = "Onlymrabhi01" 
+ADMIN_USERNAME_FOR_ACCESS = "Zolvit" 
 DATA_FILE = "bot_data.json"
 BANNED_USERS_FILE = "banned_users.json"
 # ---------------------
@@ -401,7 +401,7 @@ async def search_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             "**सही तरीका:**\n"
             "`/search 979842655`\n\n"
             "**या सीधे नंबर भेजें aage /search 839393939:**\n"
-            "`83839 no `",
+            "`/search ke aage number +91 mat lagana `",
             parse_mode=ParseMode.MARKDOWN
         )
         return
