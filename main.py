@@ -27,9 +27,9 @@ load_dotenv()
 # --- CONFIGURATION ---
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 # ⭐ नया और सही API यहाँ लगाया गया है ⭐
-API_BASE_URL = os.getenv("API_BASE_URL", "https://paid-num.frappeash.workers.dev/?mobile=")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://encore.toxictanji0503.workers.dev/encoree?num=")
 # ⭐ दूसरा API यहाँ जोड़ा गया है ⭐
-SECONDARY_API_URL = "https://paid-num.frappeash.workers.dev/?mobile="
+SECONDARY_API_URL = "https://encore.toxictanji0503.workers.dev/encoree?num="
 try:
     # कृपया ध्यान दें: ADMIN_ID को .env फ़ाइल से लोड करना सबसे अच्छा है। 
     # मैंने यहाँ दी गई ID (7524032836) को ही उपयोग किया है।
